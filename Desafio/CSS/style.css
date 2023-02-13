@@ -1,0 +1,26 @@
+*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    background: rgb(0, 79, 156);
+}
+.navbar{
+    background: rgb(0, 79, 156) !important;
+}
+.pesquisa{
+    background: linear-gradient(to right, rgb(9,127,201), rgb(0,30,78)  )
+}
+.titulo{
+    color: black;
+    text-decoration: none;
+}
+.titulo:hover{
+    color: red;
+}
+footer{
+    background-color: rgb(0, 79, 156);
+    overflow: auto;
+}
